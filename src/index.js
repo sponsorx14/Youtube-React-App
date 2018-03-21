@@ -19,7 +19,7 @@ class App extends Component {
       videos: [],
       selectedVideo: null
     }
-    this.onSearch('gunz4hire');
+    this.onSearch('BMW');
   }
   onSearch(searchTerm){
     YTSearch({key: API_KEY, term: searchTerm}, videos => {

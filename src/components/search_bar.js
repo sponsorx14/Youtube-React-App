@@ -17,7 +17,9 @@ class SearchBar extends Component {
       <form className="search-bar" action="">
         <input
           value={this.state.searchTerm}
-          onChange={e => this.onSearchTerm(e.target.value)} type="text"/>
+          onChange={e => this.onSearchTerm(e.target.value)} type="text"
+          placeholder='Search'
+        />
       </form>
     )
   }
